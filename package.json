@@ -1,0 +1,29 @@
+{
+  "name": "solidity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat typechain && npx hardhat test",
+    "compile": "npx hardhat typechain && npx hardhat compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^18.0.0",
+    "ethers": "^6.0.0",
+    "hardhat": "^2.12.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@uniswap/v3-core": "^1.0.1",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "chai": "^4.5.0",
+    "mathjs": "^13.1.1",
+    "mocha": "^10.7.3"
+  }
+}
